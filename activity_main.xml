@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Button to find location -->
+    <Button
+        android:id="@+id/btnFindLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For find your Location, Click Here" />
+
+    <!-- Display Latitude -->
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude:"
+        android:textSize="16sp"
+        android:paddingTop="20dp" />
+
+    <!-- Display Longitude -->
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude:"
+        android:textSize="16sp"
+        android:paddingTop="10dp" />
+
+    <!-- Display Location Name -->
+    <TextView
+        android:id="@+id/tvLocationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="16sp"
+        android:paddingTop="10dp" />
+
+    <!-- Spacer to push content upwards -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- "Done by: Navaneethan" Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done by: Navaneethan"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center" />
+
+</LinearLayout>
